@@ -44,9 +44,9 @@ jobs:
         run: |
           bun install
           
-      - name: Build executables for Windows
-        run: |
-          bun run build:executables:windows
+      # - name: Build executables for Windows
+      #   run: |
+      #     bun run build:executables:windows
           
       - name: Fix Windows icon format
         run: |
